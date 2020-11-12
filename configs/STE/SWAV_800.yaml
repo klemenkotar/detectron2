@@ -1,6 +1,6 @@
 _BASE_: "../Base-RCNN-FPN.yaml"
 MODEL:
-  WEIGHTS: "../../pretrained_weights/SWAV_800_detectron.pt"
+  WEIGHTS: "../pretrained_weights/SWAV_800_detectron.pt"
   MASK_ON: False
   RESNETS:
     DEPTH: 50
