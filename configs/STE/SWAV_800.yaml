@@ -1,6 +1,6 @@
 _BASE_: "../Base-RCNN-FPN.yaml"
 MODEL:
-  WEIGHTS: "detectron2://ImageNetPretrained/MSRA/R-50.pkl"
+  WEIGHTS: "../..//pretrained_weights/SWAV_800_detectron.pt"
   MASK_ON: False
   RESNETS:
     DEPTH: 50
