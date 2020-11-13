@@ -37,6 +37,7 @@ if __name__ == "__main__":
     newmodel = {}
     for k in list(obj.keys()):
         old_k = k
+        k = k.replace("feature_extractor.resnet.", "")
         if "layer" not in k:
             k = "stem." + k
         for t in [1, 2, 3, 4]:
